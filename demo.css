@@ -1,3 +1,23 @@
-.h1{
-    background-color: white;
+h1{
+    font-family: Azonix;
+    color: white;
+    font-size: 190px;
+    letter-spacing: 65px;
+    user-select: none;
 }
+
+#main{
+    opacity:1;
+    background-color:#000000;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
