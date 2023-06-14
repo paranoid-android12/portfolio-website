@@ -3,10 +3,25 @@
     <head>
         <link rel="stylesheet" type="text/css" href="adminCasc.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="adminScript.js"></script>
         <title>Login</title>
     </head>
-    <body style="background-color: rgb(13, 17, 23);">       
-            <label for="sucks">Username:</label>
-            <input type="text" class="sucks" name="username">
+    <body style="background-color: rgb(13, 17, 23);"> 
+        <div class="maincontainer">
+            <ul class="header">
+                <li id="home">Home</li>
+                <li id="scraper">Scraper</li>
+                <li id="portfolio" onclick="clicked()">Portfolio</li>
+            </ul>
+    
+            <div class="container">
+                <div class="sidebar">
+                    <h2>Manga Coloring</h2>
+                    <h2>Leitmotif Videos</h2>
+                    <h2>3d Sculpting</h2>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

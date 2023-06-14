@@ -1,0 +1,17 @@
+body{
+
+
+}
+
+.background{
+    background-image: url('pxfuel.jpg');
+    background-size: 100%;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 110vh;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
