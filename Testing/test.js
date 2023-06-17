@@ -1,14 +1,7 @@
-var mysql = require('mysql');
+const os = require('os');
 
-var con = mysql.createConnection({
-  host: "127.0.0.1",
-  user: "root",
-  password: ""
-});
+var totalMem = os.totalmem();
+var freeMem = os.freemem();
 
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected!");
-
-  con.query('SELECT * FROM')
-});
+console.log(`Total Memory: ${totalMem}`);
+console.log(`Free Memory: ${freeMem}`);
